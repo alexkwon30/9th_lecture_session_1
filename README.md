@@ -1,5 +1,7 @@
 🚀 GitHub 실습 및 과제 제출 가이드
 
+[👉 동아리 부원 방명록 구경하러 가기](./members.html)
+
 ## 📌 실습 개요
 본 저장소는 **학술동아리** 신입 부원 및 프로젝트 팀원들을 위한 **Git/GitHub 온보딩 실습 공간**입니다. 
 협업의 핵심인 **Fork, Clone, Branch, Commit, Push, Pull Request(PR)**의 전체 프로세스를 직접 경험하며 GitHub를 통한 협업 흐름을 익히는 것을 목표로 합니다.
@@ -39,31 +41,20 @@
 
 ### 4단계. 방명록 작성하기 (Edit & Commit)
 1. 프로젝트 폴더 내에 있는 **`members.md`** 파일을 엽니다.
-2. 파일의 맨 아래에 다음 양식에 맞추어 본인의 정보를 추가하고 저장(`Ctrl + S` / `Cmd + S`)합니다.
-
-   ```markdown
-   ---
-   ### 👤 홍길동
-   - **학과 / 활동 분야**: 컴퓨터과학과 / 야구 팀
-   - **한 줄 소개**: 이번 학기 동안 많이 배우고 성장하고 싶습니다! 잘 부탁드립니다. 🚀
-   - **관심사**: #데이터분석 #야구 #개발
-VS Code 좌측의 소스 제어(Source Control) 탭(나뭇가지 모양 아이콘)으로 이동합니다.
-
-변경된 members.md 파일 옆의 + (Stage Changes) 버튼을 누릅니다.
-
-상단 입력창에 어떤 작업을 했는지 명확히 적고(예: feat: 홍길동 방명록 추가), [Commit] 버튼을 누릅니다.
+2. 파일의 맨 아래에 예시 양식에 맞추어 본인의 정보를 추가하고 저장(`Ctrl + S` / `Cmd + S`)합니다.
+3. VS Code 좌측의 소스 제어(Source Control) 탭(나뭇가지 모양 아이콘)으로 이동합니다.
+4. 변경된 members.md 파일 옆의 + (Stage Changes) 버튼을 누릅니다.
+5. 상단 입력창에 어떤 작업을 했는지 명확히 적고(예: feat: 홍길동 방명록 추가), [Commit] 버튼을 누릅니다.
++ Github Desktop을 쓰는 경우, 왼쪽 Changes 창에 상태 변화가 뜨는 것을 확인 후, 아래 Commit Summary & Description을 작성한 후 Commit 버튼을 누릅니다.
 
 ### 5단계. 내 GitHub에 올리기 (Push)
-커밋한 내용을 인터넷에 있는 본인의 Fork 저장소로 업로드합니다.
+- 커밋한 내용을 인터넷에 있는 본인의 Fork 저장소로 업로드합니다.
+- VS Code 소스 제어 탭의 [Publish Branch] 또는 [Sync Changes] 버튼을 눌러 Push를 완료합니다.
 
-VS Code 소스 제어 탭의 [Publish Branch] 또는 [Sync Changes] 버튼을 눌러 Push를 완료합니다.
-
-6단계. 동아리 원본 저장소로 반영 요청하기 (Pull Request)
-Push를 마치고 다시 동아리 원본 GitHub 저장소로 접속합니다.
-
-화면 상단에 초록색 [Compare & pull request] 버튼이 활성화되어 있는 것을 볼 수 있습니다. 버튼을 클릭합니다.
-
-PR 제목과 내용을 확인한 뒤, 우측 하단의 [Create pull request] 버튼을 누르면 과제 제출이 완료됩니다! 🎉
+### 6단계. 동아리 원본 저장소로 반영 요청하기 (Pull Request)
+1. Push를 마치고 다시 동아리 원본 GitHub 저장소로 접속합니다.
+2. 화면 상단에 초록색 [Compare & pull request] 버튼이 활성화되어 있는 것을 볼 수 있습니다. 버튼을 클릭합니다.
+3. PR 제목과 내용을 확인한 뒤, 우측 하단의 [Create pull request] 버튼을 누르면 과제 제출이 완료됩니다! 🎉
 
 ⚠️ 자주 발생하는 문제 & 대처법 (Merge Conflict)
 여러 부원이 동시에 같은 파일의 같은 위치를 수정하기 때문에, 내 PR 화면에 "Can't automatically merge"라는 경고와 함께 병합 충돌(Conflict)이 발생할 수 있습니다. 이는 아주 자연스러운 현상이며, 협업 과정에서 반드시 배워야 할 필수 관문입니다!
